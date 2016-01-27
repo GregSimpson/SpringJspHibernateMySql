@@ -10,12 +10,12 @@ CREATE TABLE PLAYER(
 );
 
 -- To run:
---   cd /cygdrive/c/gjs/edureka/java/workspace/GsimpsonSpringJspHibernateMysql
+--   cd /cygdrive/c/gjs/git/GsimpsonSpringJspHibernateMySql
 --   mvn clean install
 
 --   # Deploy the war to a Servlet 3.0 container.
 --   chmod 644 ./target/GsimpsonSpringJspHibernateMysql.war
---   cp ./target/GsimpsonSpringJspHibernateMysql.war ../../apache-tomcat-7.0.67/webapps/
+--   cp ./target/GsimpsonSpringJspHibernateMysql.war ../../edureka/java/apache-tomcat-7.0.67/webapps/
 
 --   Click on start.bat inside tomcat/bin directory
 
