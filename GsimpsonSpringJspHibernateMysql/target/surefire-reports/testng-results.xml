@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="23" passed="23">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Command line suite" duration-ms="5774" started-at="2016-01-27T17:50:05Z" finished-at="2016-01-27T17:50:11Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="5774" started-at="2016-01-27T17:50:05Z" finished-at="2016-01-27T17:50:11Z">
+      <class name="com.mvc.service.PlayerServiceImplTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.mvc.service.PlayerServiceImplTest@6737fd8f]" name="setUp" is-config="true" duration-ms="16" started-at="2016-01-27T10:50:11Z" finished-at="2016-01-27T10:50:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="deletePlayerByJersey()[pri:0, instance:com.mvc.service.PlayerServiceImplTest@6737fd8f]" name="deletePlayerByJersey" duration-ms="1" started-at="2016-01-27T10:50:11Z" finished-at="2016-01-27T10:50:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deletePlayerByJersey -->
+        <test-method status="PASS" signature="findAllPlayers()[pri:0, instance:com.mvc.service.PlayerServiceImplTest@6737fd8f]" name="findAllPlayers" duration-ms="0" started-at="2016-01-27T10:50:11Z" finished-at="2016-01-27T10:50:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- findAllPlayers -->
+        <test-method status="PASS" signature="findById()[pri:0, instance:com.mvc.service.PlayerServiceImplTest@6737fd8f]" name="findById" duration-ms="0" started-at="2016-01-27T10:50:11Z" finished-at="2016-01-27T10:50:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- findById -->
+        <test-method status="PASS" signature="findPlayerByJersey()[pri:0, instance:com.mvc.service.PlayerServiceImplTest@6737fd8f]" name="findPlayerByJersey" duration-ms="1" started-at="2016-01-27T10:50:11Z" finished-at="2016-01-27T10:50:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- findPlayerByJersey -->
+        <test-method status="PASS" signature="isPlayerJerseyUnique()[pri:0, instance:com.mvc.service.PlayerServiceImplTest@6737fd8f]" name="isPlayerJerseyUnique" duration-ms="1" started-at="2016-01-27T10:50:11Z" finished-at="2016-01-27T10:50:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isPlayerJerseyUnique -->
+        <test-method status="PASS" signature="savePlayer()[pri:0, instance:com.mvc.service.PlayerServiceImplTest@6737fd8f]" name="savePlayer" duration-ms="4" started-at="2016-01-27T10:50:11Z" finished-at="2016-01-27T10:50:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- savePlayer -->
+        <test-method status="PASS" signature="updatePlayer()[pri:0, instance:com.mvc.service.PlayerServiceImplTest@6737fd8f]" name="updatePlayer" duration-ms="1" started-at="2016-01-27T10:50:11Z" finished-at="2016-01-27T10:50:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updatePlayer -->
+      </class> <!-- com.mvc.service.PlayerServiceImplTest -->
+      <class name="com.mvc.dao.PlayerDaoImplTest">
+        <test-method status="PASS" signature="springTestContextBeforeTestClass()[pri:0, instance:com.mvc.dao.PlayerDaoImplTest@694e1548]" name="springTestContextBeforeTestClass" is-config="true" duration-ms="1" started-at="2016-01-27T10:50:06Z" finished-at="2016-01-27T10:50:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestClass -->
+        <test-method status="PASS" signature="springTestContextPrepareTestInstance()[pri:0, instance:com.mvc.dao.PlayerDaoImplTest@694e1548]" name="springTestContextPrepareTestInstance" is-config="true" duration-ms="3923" started-at="2016-01-27T10:50:06Z" depends-on-methods="org.springframework.test.context.testng.AbstractTestNGSpringContextTests.springTestContextBeforeTestClass" finished-at="2016-01-27T10:50:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextPrepareTestInstance -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.mvc.dao.PlayerDaoImplTest@694e1548]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="135" started-at="2016-01-27T10:50:10Z" finished-at="2016-01-27T10:50:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.mvc.dao.PlayerDaoImplTest.deletePlayerByInvalidJersey()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.mvc.dao.PlayerDaoImplTest@694e1548]" name="setUp" is-config="true" duration-ms="339" started-at="2016-01-27T10:50:10Z" finished-at="2016-01-27T10:50:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="deletePlayerByInvalidJersey()[pri:0, instance:com.mvc.dao.PlayerDaoImplTest@694e1548]" name="deletePlayerByInvalidJersey" duration-ms="241" started-at="2016-01-27T10:50:10Z" finished-at="2016-01-27T10:50:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deletePlayerByInvalidJersey -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.mvc.dao.PlayerDaoImplTest@694e1548]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="13" started-at="2016-01-27T10:50:10Z" finished-at="2016-01-27T10:50:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.mvc.dao.PlayerDaoImplTest.deletePlayerByInvalidJersey()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.mvc.dao.PlayerDaoImplTest@694e1548]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="3" started-at="2016-01-27T10:50:10Z" finished-at="2016-01-27T10:50:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.mvc.dao.PlayerDaoImplTest.deletePlayerByJersey()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.mvc.dao.PlayerDaoImplTest@694e1548]" name="setUp" is-config="true" duration-ms="19" started-at="2016-01-27T10:50:11Z" finished-at="2016-01-27T10:50:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="deletePlayerByJersey()[pri:0, instance:com.mvc.dao.PlayerDaoImplTest@694e1548]" name="deletePlayerByJersey" duration-ms="10" started-at="2016-01-27T10:50:11Z" finished-at="2016-01-27T10:50:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deletePlayerByJersey -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.mvc.dao.PlayerDaoImplTest@694e1548]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="6" started-at="2016-01-27T10:50:11Z" finished-at="2016-01-27T10:50:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.mvc.dao.PlayerDaoImplTest.deletePlayerByJersey()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.mvc.dao.PlayerDaoImplTest@694e1548]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="5" started-at="2016-01-27T10:50:11Z" finished-at="2016-01-27T10:50:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.mvc.dao.PlayerDaoImplTest.findAllPlayers()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.mvc.dao.PlayerDaoImplTest@694e1548]" name="setUp" is-config="true" duration-ms="20" started-at="2016-01-27T10:50:11Z" finished-at="2016-01-27T10:50:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="findAllPlayers()[pri:0, instance:com.mvc.dao.PlayerDaoImplTest@694e1548]" name="findAllPlayers" duration-ms="3" started-at="2016-01-27T10:50:11Z" finished-at="2016-01-27T10:50:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- findAllPlayers -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.mvc.dao.PlayerDaoImplTest@694e1548]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="2" started-at="2016-01-27T10:50:11Z" finished-at="2016-01-27T10:50:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.mvc.dao.PlayerDaoImplTest.findAllPlayers()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.mvc.dao.PlayerDaoImplTest@694e1548]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="3" started-at="2016-01-27T10:50:11Z" finished-at="2016-01-27T10:50:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.mvc.dao.PlayerDaoImplTest.findById()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.mvc.dao.PlayerDaoImplTest@694e1548]" name="setUp" is-config="true" duration-ms="13" started-at="2016-01-27T10:50:11Z" finished-at="2016-01-27T10:50:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="findById()[pri:0, instance:com.mvc.dao.PlayerDaoImplTest@694e1548]" name="findById" duration-ms="63" started-at="2016-01-27T10:50:11Z" finished-at="2016-01-27T10:50:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- findById -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.mvc.dao.PlayerDaoImplTest@694e1548]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="16" started-at="2016-01-27T10:50:11Z" finished-at="2016-01-27T10:50:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.mvc.dao.PlayerDaoImplTest.findById()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.mvc.dao.PlayerDaoImplTest@694e1548]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="4" started-at="2016-01-27T10:50:11Z" finished-at="2016-01-27T10:50:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.mvc.dao.PlayerDaoImplTest.findPlayerByJersey()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.mvc.dao.PlayerDaoImplTest@694e1548]" name="setUp" is-config="true" duration-ms="21" started-at="2016-01-27T10:50:11Z" finished-at="2016-01-27T10:50:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="findPlayerByJersey()[pri:0, instance:com.mvc.dao.PlayerDaoImplTest@694e1548]" name="findPlayerByJersey" duration-ms="27" started-at="2016-01-27T10:50:11Z" finished-at="2016-01-27T10:50:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- findPlayerByJersey -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.mvc.dao.PlayerDaoImplTest@694e1548]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="2" started-at="2016-01-27T10:50:11Z" finished-at="2016-01-27T10:50:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.mvc.dao.PlayerDaoImplTest.findPlayerByJersey()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.mvc.dao.PlayerDaoImplTest@694e1548]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="7" started-at="2016-01-27T10:50:11Z" finished-at="2016-01-27T10:50:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.mvc.dao.PlayerDaoImplTest.savePlayer()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.mvc.dao.PlayerDaoImplTest@694e1548]" name="setUp" is-config="true" duration-ms="46" started-at="2016-01-27T10:50:11Z" finished-at="2016-01-27T10:50:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="savePlayer()[pri:0, instance:com.mvc.dao.PlayerDaoImplTest@694e1548]" name="savePlayer" duration-ms="51" started-at="2016-01-27T10:50:11Z" finished-at="2016-01-27T10:50:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- savePlayer -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.mvc.dao.PlayerDaoImplTest@694e1548]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="5" started-at="2016-01-27T10:50:11Z" finished-at="2016-01-27T10:50:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.mvc.dao.PlayerDaoImplTest.savePlayer()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextAfterTestClass()[pri:0, instance:com.mvc.dao.PlayerDaoImplTest@694e1548]" name="springTestContextAfterTestClass" is-config="true" duration-ms="1" started-at="2016-01-27T10:50:11Z" finished-at="2016-01-27T10:50:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestClass -->
+      </class> <!-- com.mvc.dao.PlayerDaoImplTest -->
+      <class name="com.mvc.controller.AppControllerTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.mvc.controller.AppControllerTest@4f063c0a]" name="setUp" is-config="true" duration-ms="631" started-at="2016-01-27T10:50:05Z" finished-at="2016-01-27T10:50:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="deletePlayer()[pri:0, instance:com.mvc.controller.AppControllerTest@4f063c0a]" name="deletePlayer" duration-ms="30" started-at="2016-01-27T10:50:06Z" finished-at="2016-01-27T10:50:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deletePlayer -->
+        <test-method status="PASS" signature="editPlayer()[pri:0, instance:com.mvc.controller.AppControllerTest@4f063c0a]" name="editPlayer" duration-ms="40" started-at="2016-01-27T10:50:06Z" finished-at="2016-01-27T10:50:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- editPlayer -->
+        <test-method status="PASS" signature="listPlayers()[pri:0, instance:com.mvc.controller.AppControllerTest@4f063c0a]" name="listPlayers" duration-ms="13" started-at="2016-01-27T10:50:06Z" finished-at="2016-01-27T10:50:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- listPlayers -->
+        <test-method status="PASS" signature="newPlayer()[pri:0, instance:com.mvc.controller.AppControllerTest@4f063c0a]" name="newPlayer" duration-ms="1" started-at="2016-01-27T10:50:06Z" finished-at="2016-01-27T10:50:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- newPlayer -->
+        <test-method status="PASS" signature="savePlayerWithSuccess()[pri:0, instance:com.mvc.controller.AppControllerTest@4f063c0a]" name="savePlayerWithSuccess" duration-ms="1" started-at="2016-01-27T10:50:06Z" finished-at="2016-01-27T10:50:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- savePlayerWithSuccess -->
+        <test-method status="PASS" signature="savePlayerWithValidationError()[pri:0, instance:com.mvc.controller.AppControllerTest@4f063c0a]" name="savePlayerWithValidationError" duration-ms="1" started-at="2016-01-27T10:50:06Z" finished-at="2016-01-27T10:50:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- savePlayerWithValidationError -->
+        <test-method status="PASS" signature="savePlayerWithValidationErrorNonUniqueJersey()[pri:0, instance:com.mvc.controller.AppControllerTest@4f063c0a]" name="savePlayerWithValidationErrorNonUniqueJersey" duration-ms="2" started-at="2016-01-27T10:50:06Z" finished-at="2016-01-27T10:50:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- savePlayerWithValidationErrorNonUniqueJersey -->
+        <test-method status="PASS" signature="updatePlayerWithSuccess()[pri:0, instance:com.mvc.controller.AppControllerTest@4f063c0a]" name="updatePlayerWithSuccess" duration-ms="1" started-at="2016-01-27T10:50:06Z" finished-at="2016-01-27T10:50:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updatePlayerWithSuccess -->
+        <test-method status="PASS" signature="updatePlayerWithValidationError()[pri:0, instance:com.mvc.controller.AppControllerTest@4f063c0a]" name="updatePlayerWithValidationError" duration-ms="1" started-at="2016-01-27T10:50:06Z" finished-at="2016-01-27T10:50:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updatePlayerWithValidationError -->
+        <test-method status="PASS" signature="updatePlayerWithValidationErrorNonUniqueSSN()[pri:0, instance:com.mvc.controller.AppControllerTest@4f063c0a]" name="updatePlayerWithValidationErrorNonUniqueSSN" duration-ms="1" started-at="2016-01-27T10:50:06Z" finished-at="2016-01-27T10:50:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updatePlayerWithValidationErrorNonUniqueSSN -->
+      </class> <!-- com.mvc.controller.AppControllerTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>

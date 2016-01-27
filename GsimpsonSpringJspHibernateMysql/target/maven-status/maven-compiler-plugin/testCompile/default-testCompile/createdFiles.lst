@@ -1,0 +1,5 @@
+com\mvc\dao\PlayerDaoImplTest.class
+com\mvc\controller\AppControllerTest.class
+com\mvc\dao\EntityDaoImplTest.class
+com\mvc\configuration\HibernateTestConfiguration.class
+com\mvc\service\PlayerServiceImplTest.class

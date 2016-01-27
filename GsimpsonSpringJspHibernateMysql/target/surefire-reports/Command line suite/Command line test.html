@@ -1,0 +1,194 @@
+<html>
+<head>
+<title>TestNG:  Command line test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Command line test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>23/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Wed Jan 27 10:50:05 MST 2016</td>
+</tr>
+<tr><td>Total time:</td><td>5 seconds (5774 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.mvc.controller.AppControllerTest.deletePlayer()'><b>deletePlayer</b><br>Test class: com.mvc.controller.AppControllerTest</td>
+<td></td>
+<td>0</td>
+<td>com.mvc.controller.AppControllerTest@4f063c0a</td></tr>
+<tr>
+<td title='com.mvc.dao.PlayerDaoImplTest.deletePlayerByInvalidJersey()'><b>deletePlayerByInvalidJersey</b><br>Test class: com.mvc.dao.PlayerDaoImplTest</td>
+<td></td>
+<td>0</td>
+<td>com.mvc.dao.PlayerDaoImplTest@694e1548</td></tr>
+<tr>
+<td title='com.mvc.dao.PlayerDaoImplTest.deletePlayerByJersey()'><b>deletePlayerByJersey</b><br>Test class: com.mvc.dao.PlayerDaoImplTest</td>
+<td></td>
+<td>0</td>
+<td>com.mvc.dao.PlayerDaoImplTest@694e1548</td></tr>
+<tr>
+<td title='com.mvc.service.PlayerServiceImplTest.deletePlayerByJersey()'><b>deletePlayerByJersey</b><br>Test class: com.mvc.service.PlayerServiceImplTest</td>
+<td></td>
+<td>0</td>
+<td>com.mvc.service.PlayerServiceImplTest@6737fd8f</td></tr>
+<tr>
+<td title='com.mvc.controller.AppControllerTest.editPlayer()'><b>editPlayer</b><br>Test class: com.mvc.controller.AppControllerTest</td>
+<td></td>
+<td>0</td>
+<td>com.mvc.controller.AppControllerTest@4f063c0a</td></tr>
+<tr>
+<td title='com.mvc.dao.PlayerDaoImplTest.findAllPlayers()'><b>findAllPlayers</b><br>Test class: com.mvc.dao.PlayerDaoImplTest</td>
+<td></td>
+<td>0</td>
+<td>com.mvc.dao.PlayerDaoImplTest@694e1548</td></tr>
+<tr>
+<td title='com.mvc.service.PlayerServiceImplTest.findAllPlayers()'><b>findAllPlayers</b><br>Test class: com.mvc.service.PlayerServiceImplTest</td>
+<td></td>
+<td>0</td>
+<td>com.mvc.service.PlayerServiceImplTest@6737fd8f</td></tr>
+<tr>
+<td title='com.mvc.dao.PlayerDaoImplTest.findById()'><b>findById</b><br>Test class: com.mvc.dao.PlayerDaoImplTest</td>
+<td></td>
+<td>0</td>
+<td>com.mvc.dao.PlayerDaoImplTest@694e1548</td></tr>
+<tr>
+<td title='com.mvc.service.PlayerServiceImplTest.findById()'><b>findById</b><br>Test class: com.mvc.service.PlayerServiceImplTest</td>
+<td></td>
+<td>0</td>
+<td>com.mvc.service.PlayerServiceImplTest@6737fd8f</td></tr>
+<tr>
+<td title='com.mvc.dao.PlayerDaoImplTest.findPlayerByJersey()'><b>findPlayerByJersey</b><br>Test class: com.mvc.dao.PlayerDaoImplTest</td>
+<td></td>
+<td>0</td>
+<td>com.mvc.dao.PlayerDaoImplTest@694e1548</td></tr>
+<tr>
+<td title='com.mvc.service.PlayerServiceImplTest.findPlayerByJersey()'><b>findPlayerByJersey</b><br>Test class: com.mvc.service.PlayerServiceImplTest</td>
+<td></td>
+<td>0</td>
+<td>com.mvc.service.PlayerServiceImplTest@6737fd8f</td></tr>
+<tr>
+<td title='com.mvc.service.PlayerServiceImplTest.isPlayerJerseyUnique()'><b>isPlayerJerseyUnique</b><br>Test class: com.mvc.service.PlayerServiceImplTest</td>
+<td></td>
+<td>0</td>
+<td>com.mvc.service.PlayerServiceImplTest@6737fd8f</td></tr>
+<tr>
+<td title='com.mvc.controller.AppControllerTest.listPlayers()'><b>listPlayers</b><br>Test class: com.mvc.controller.AppControllerTest</td>
+<td></td>
+<td>0</td>
+<td>com.mvc.controller.AppControllerTest@4f063c0a</td></tr>
+<tr>
+<td title='com.mvc.controller.AppControllerTest.newPlayer()'><b>newPlayer</b><br>Test class: com.mvc.controller.AppControllerTest</td>
+<td></td>
+<td>0</td>
+<td>com.mvc.controller.AppControllerTest@4f063c0a</td></tr>
+<tr>
+<td title='com.mvc.dao.PlayerDaoImplTest.savePlayer()'><b>savePlayer</b><br>Test class: com.mvc.dao.PlayerDaoImplTest</td>
+<td></td>
+<td>0</td>
+<td>com.mvc.dao.PlayerDaoImplTest@694e1548</td></tr>
+<tr>
+<td title='com.mvc.service.PlayerServiceImplTest.savePlayer()'><b>savePlayer</b><br>Test class: com.mvc.service.PlayerServiceImplTest</td>
+<td></td>
+<td>0</td>
+<td>com.mvc.service.PlayerServiceImplTest@6737fd8f</td></tr>
+<tr>
+<td title='com.mvc.controller.AppControllerTest.savePlayerWithSuccess()'><b>savePlayerWithSuccess</b><br>Test class: com.mvc.controller.AppControllerTest</td>
+<td></td>
+<td>0</td>
+<td>com.mvc.controller.AppControllerTest@4f063c0a</td></tr>
+<tr>
+<td title='com.mvc.controller.AppControllerTest.savePlayerWithValidationError()'><b>savePlayerWithValidationError</b><br>Test class: com.mvc.controller.AppControllerTest</td>
+<td></td>
+<td>0</td>
+<td>com.mvc.controller.AppControllerTest@4f063c0a</td></tr>
+<tr>
+<td title='com.mvc.controller.AppControllerTest.savePlayerWithValidationErrorNonUniqueJersey()'><b>savePlayerWithValidationErrorNonUniqueJersey</b><br>Test class: com.mvc.controller.AppControllerTest</td>
+<td></td>
+<td>0</td>
+<td>com.mvc.controller.AppControllerTest@4f063c0a</td></tr>
+<tr>
+<td title='com.mvc.service.PlayerServiceImplTest.updatePlayer()'><b>updatePlayer</b><br>Test class: com.mvc.service.PlayerServiceImplTest</td>
+<td></td>
+<td>0</td>
+<td>com.mvc.service.PlayerServiceImplTest@6737fd8f</td></tr>
+<tr>
+<td title='com.mvc.controller.AppControllerTest.updatePlayerWithSuccess()'><b>updatePlayerWithSuccess</b><br>Test class: com.mvc.controller.AppControllerTest</td>
+<td></td>
+<td>0</td>
+<td>com.mvc.controller.AppControllerTest@4f063c0a</td></tr>
+<tr>
+<td title='com.mvc.controller.AppControllerTest.updatePlayerWithValidationError()'><b>updatePlayerWithValidationError</b><br>Test class: com.mvc.controller.AppControllerTest</td>
+<td></td>
+<td>0</td>
+<td>com.mvc.controller.AppControllerTest@4f063c0a</td></tr>
+<tr>
+<td title='com.mvc.controller.AppControllerTest.updatePlayerWithValidationErrorNonUniqueSSN()'><b>updatePlayerWithValidationErrorNonUniqueSSN</b><br>Test class: com.mvc.controller.AppControllerTest</td>
+<td></td>
+<td>0</td>
+<td>com.mvc.controller.AppControllerTest@4f063c0a</td></tr>
+</table><p>
+</body>
+</html>

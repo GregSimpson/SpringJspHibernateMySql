@@ -1,0 +1,10 @@
+com\mvc\dao\PlayerDao.class
+com\mvc\configuration\AppInitializer.class
+com\mvc\controller\AppController.class
+com\mvc\service\PlayerServiceImpl.class
+com\mvc\configuration\AppConfig.class
+com\mvc\configuration\HibernateConfiguration.class
+com\mvc\dao\PlayerDaoImpl.class
+com\mvc\model\Player.class
+com\mvc\service\PlayerService.class
+com\mvc\dao\AbstractDao.class

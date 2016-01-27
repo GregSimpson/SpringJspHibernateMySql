@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataset>
+	<player id="1"	NAME="SAMY"	JOINING_DATE="2014-04-16"		SALARY="20000"	Jersey="11111"	/>
+	<player id="2"	NAME="TOMY"	JOINING_DATE="2014-05-17"		SALARY="23000"	Jersey="11112"	/>
+</dataset>

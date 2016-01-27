@@ -1,0 +1,25 @@
+
+-- create the table in Mysql
+CREATE TABLE PLAYER(
+    id INT NOT NULL auto_increment, 
+    name VARCHAR(50) NOT NULL,
+    joining_date DATE NOT NULL,
+    salary DOUBLE NOT NULL,
+    jersey VARCHAR(30) NOT NULL UNIQUE,
+    PRIMARY KEY (id)
+);
+
+-- To run:
+--   cd /cygdrive/c/gjs/edureka/java/workspace/GsimpsonSpringJspHibernateMysql
+--   mvn clean install
+
+--   # Deploy the war to a Servlet 3.0 container.
+--   chmod 644 ./target/GsimpsonSpringJspHibernateMysql.war
+--   cp ./target/GsimpsonSpringJspHibernateMysql.war ../../apache-tomcat-7.0.67/webapps/
+
+--   Click on start.bat inside tomcat/bin directory
+
+--   # open a browser at this URL
+--   http://localhost:8080/GsimpsonSpringJspHibernateMysql
+
+
