@@ -1,2 +1,2 @@
-# SwingJspHibernateMySql
-example of SwingJspHibernateMySql
+# SpringJspHibernateMySql
+example of SpringJspHibernateMySql
